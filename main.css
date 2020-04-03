@@ -6,7 +6,7 @@ body{
 
 /* Header */
 header{
-    background-color: aquamarine;
+    background-color: rgb(92, 163, 245);
     color: white;
 }
 
@@ -45,7 +45,7 @@ header figure {
   }
 
   header section button{
-    background: rgb(0, 132, 255);
+    background: rgb(240, 75, 75);
     color: white;
     border: none;
     height: 31px;
@@ -56,11 +56,16 @@ header figure {
     display: flow-root;
     font-size: 15px;
     text-decoration: none;
+    color: white;
 }
 
 /* SideBar */
 aside{
+    display: inline-block;
     padding: 1em;
+    margin-top: -3em;
+    margin-right: -3em;
+    margin-bottom: 1em;
 }
 aside div h3{
     font-size: 20px;
@@ -77,6 +82,44 @@ aside div a{
     margin-left: 40px;
 }
 
+/* main */
+main{
+    display: inline-block;
+    width: 65%;
+    float: right; 
+}
+
+main section{
+    z-index: 1;
+}
+
+main section figure{
+    margin: 0px;
+}
+
+main section figure img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+main div.activity{
+    margin: 0 39% 0;
+    z-index: 2;
+    position: relative;
+} 
+main div h2{
+    text-align: center;
+    background-color: rgb(83, 83, 196);
+    color: white;
+    width: 140px;
+    padding: 10px 0;
+    margin-top: -35px;
+}
+
+main div.pay{
+    text-align: center;
+}
+
 /* Footer */
 footer{
     background-color: rgb(236, 231, 231);
@@ -85,27 +128,39 @@ footer{
     padding: 1em;
 }
 
-footer div{
+footer section{
     display: inline-block;
-    margin-left: 1em;
-    width: 40%;
-    padding-bottom: 5px;
+    width: 70%;
 }
 
-footer div a{
+footer div{
+    display: inline-block;
+    width: 15%;
+    padding-bottom: 5px;
+    margin-left: 100px;
+}
+
+footer section a{
     text-decoration: none;
     font-size: 20px;
     color: tomato;
     display: block;
 }
 
-footer figure{
+footer div figure{
     display: inline-block;
-    margin-right: 10%;
+    margin-right: -35px;
 }
 
-footer figure a img{
+footer div figure a img{
     width: 40px;
     height: 30px;
-    display: inline;
+    display: inline-block;
+}
+
+footer p{
+    text-align: center;
+    color: rgb(92, 163, 245);
+    font-size: 12px;
+    margin-top: -30px;
 }

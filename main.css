@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Comic Neue', cursive;
     /* background-color: rgb(225, 222, 228); */
 }
 
@@ -23,11 +23,12 @@ header figure {
   }
   
   header figure h1{
-    font-weight: lighter;
+    font-weight: bolder;
     display: inline-block;
-    font-size: 2em;
+    font-size: 30px;
     vertical-align: top;
     width: 140px;
+    font-family: 'Raleway', sans-serif;
   }
   
   header section {
@@ -36,6 +37,7 @@ header figure {
     vertical-align: top;
     margin-top: 25px;
     width: 70%;
+    font-family: 'Raleway', sans-serif;
   }
 
   header section input{
@@ -66,6 +68,7 @@ aside{
     margin-top: -3em;
     margin-right: -3em;
     margin-bottom: 1em;
+    width: 30%;
 }
 aside div h3{
     font-size: 20px;
@@ -86,7 +89,7 @@ aside div a{
 main{
     display: inline-block;
     width: 65%;
-    float: right; 
+    float: right;
 }
 
 main section{

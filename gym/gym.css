@@ -16,7 +16,7 @@ header figure{
     padding-top: 5px;
 }
 
-header figure img {
+header figure a img {
     width: 70px;
     height: 70px;
   }
@@ -36,32 +36,31 @@ main div.table{
     padding-top: 2em;
 }
 
-main div table{
+main div.table table{
     display: inline-block;
     text-align: left;
     margin: 10 40% 10;
     border: seagreen solid 2px;
 }
-main div table tr td strong{
+main div.table table tr td strong{
     color: teal;
     font-size: 30px;
     margin-left: 1em;
 }
 
-main div table tr td{
+main div.table table tr td{
     color: red;
     padding: 1em;
 }
 
-main div table tr td a{
+main div.table table tr td a{
     text-decoration: none;
     text-align: end;
     margin-left: 3em;
 }
 
-main div figure{
-    width: 300px;
-    padding-left: 17%;
+main div figure img{
+    width: 100%;
 }
 
 /* footer */

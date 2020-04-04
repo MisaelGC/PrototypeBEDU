@@ -68,7 +68,7 @@ aside{
     margin-top: -3em;
     margin-right: -3em;
     margin-bottom: 1em;
-    width: 30%;
+    width: 20%;
 }
 aside div h3{
     font-size: 20px;
@@ -88,7 +88,7 @@ aside div a{
 /* main */
 main{
     display: inline-block;
-    width: 65%;
+    width: 80%;
     float: right;
 }
 
@@ -123,17 +123,53 @@ main div.pay{
     text-align: center;
 }
 
+/* contact */
+section.contact{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(92, 163, 245);
+}
+
+section.contact a h2{
+    background-color: rgb(92, 163, 245);
+    color: white;
+}
+
+section.contact a{
+    text-decoration: none;
+}
+
+/* somos */
+section.somos{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(92, 163, 245);
+}
+
+section.somos h2{
+    background-color: rgb(92, 163, 245);
+    color: white;
+}
+
 /* Footer */
 footer{
     background-color: rgb(236, 231, 231);
     font-weight: bolder;
-    margin-bottom: 0;
-    padding: 1em;
+    margin-bottom: -4em;
+    margin-top: 12em;
 }
 
 footer section{
     display: inline-block;
     width: 70%;
+}
+
+footer section a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(240, 75, 75);
+    display: block;
+    margin-left: 55px;
 }
 
 footer div{
@@ -143,27 +179,18 @@ footer div{
     margin-left: 100px;
 }
 
-footer section a{
-    text-decoration: none;
-    font-size: 20px;
-    color: tomato;
-    display: block;
-}
-
 footer div figure{
     display: inline-block;
     margin-right: -35px;
 }
 
 footer div figure a img{
-    width: 40px;
-    height: 30px;
     display: inline-block;
+    width: 40px;
 }
 
 footer p{
     text-align: center;
     color: rgb(92, 163, 245);
-    font-size: 12px;
-    margin-top: -30px;
 }
+
